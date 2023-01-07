@@ -1,0 +1,210 @@
+
+/* banner style  */
+
+.banner{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    padding: 300px 50px;
+    overflow: hidden;
+}
+.banner-text{
+    float: right;
+    width: 600px; 
+    text-align: right;
+
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff ;
+}
+.btn-primary{
+    color: #005FAC;
+    font-weight: 400;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-top: 20px;
+
+}
+/* Failures contant style  */
+main{
+    margin: 50px 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+.failure-contant{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.failure-contant-text{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #151414;
+    margin-top: 50px;
+}
+.failure-contant-text p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.menu-bar ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.menu-bar ul li{
+    font-size: 20px;
+}
+.fa-solid{
+    color: rgb(178, 206, 182);
+    width: 30px;
+}
+/* what i do */
+.what-i-do{
+    margin-top: 150px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 10px;
+}
+.skill-title{
+    font-size: 25px;
+    font-weight: 500px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* my plan style */
+
+.plan-section{
+    margin-top: 100px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* My Update  */
+
+.my-update{
+    text-align: center;
+    margin-top: 120px;
+}
+.my-update h2{
+    font-size: 50px;
+    font-weight: 600px;
+}
+.my-update p{
+    font-size: 22px;
+    margin-top: 15px;
+}
+/* mindset section style */
+
+.mindset-section{
+    height: 80px;
+    width: 600;
+    background-image:linear-gradient(90deg, #3ea2f3 0%, rgba(0, 95, 172, 0) 100%) , url(images/watch.png);
+   
+    padding: 110px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.mindset-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.mindset-btn{
+    color: #005FAC;
+    font-weight: 400;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 25px;
+    height: 45px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-top: 5px;
+}
+/* footer section style */
+
+.footer-section{
+    display: flex;
+   justify-content: space-between;
+    background:  #151414;;
+    padding: 80px 200px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.left-section{
+    color: #fff;
+    width: 500px;
+}
+
+.left-section-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.left-section-description{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.left-section-description p{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 40px;
+}
+.icon a{
+    margin-top: 60px;
+    margin-right: 10px;
+
+}
+/* right section style */
+.right-section{
+    color: #fff;
+    margin-top: 20px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.right-section input{
+    padding: 12px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+}
